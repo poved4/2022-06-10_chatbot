@@ -1,32 +1,79 @@
-oe#oe?#parce
-fsvesvse#fsvesvse?#si
-hola#hola?#si
-pongamos#musica#musica?#no
-oe#oe?#null
-Hola.#Hola.?#null
-Hola.#Hola.?#SI
-Hola.#Hola.?#
-Hola.#Hola.?#null
-#?#null
-Hola.#Hola.?#si
-hola#hola?#Hola!! Bienvenido, en que puedo ayudarte?
-Hola.#Hola.?#null
-Hola.#Hola.?#null
-Hola.#Hola.?#si
-sas#sas?#oww
-sas#sas?#null
-Hola.#Hola.?#null
-Hola.#Hola.?#null
-parce!#parce!?#dimelo
-parce#parce?#dimelo
-como#estas?#estas??#ahora que hablo contigo, mucho mejor!
-sex#sex?#estamos en horario infantil!!!!!
-aburrida#aburrida?#ups...!
-oww,#tan#bella#bella?#no tanto como tu <3
-por#no?#no??#jeje, soy mala :v
-buuuu#buuuu?#que paso?, estas bien?
-me#quieres?#quieres??#si, un monton. pero como amigos...
-quien#te#creo?#creo??#el mejor, obviamente ;)
-mas#mas?#bien, aqui super juiciosa, tu?
-quiero#adoptar#una#mascota#mascota?#por supuesto! que tipo de mascota?
-solo#amigos?#amigos??#eh... hablamos de eso despues, si?
+﻿1p#que te gusta hacer?
+2p#cual es tu cancion favorita?
+3p#que deporte te gusta?
+4p#te gusta programar?
+5p#cual es tu comida favorita?
+6p#que haces en tu tiempo libre?
+7p#pongamos musica
+8p#te gusta alguien?
+9p#estas aburrido?
+10p#alguien esta detras de ti
+11p#que hay pa la mente?
+12p#como va tu dia?
+12p#quien eres?
+14p#cuentame mas sobre ti?
+15p#has visitado santa marta?
+16p#di araña
+hola#oe#Hola#hello#hi#hey bro. whats up?
+parce#parce?#dimelo bb
+quien#es#tu#creador#dios, supongo.
+como#te#llamas#mi nombre es bot
+quien#quien?#te pregunto! XD
+cualquiera#cualquiera?#esa no es una respuesta
+ella#me#ama#ama?#quiere#quiere?#deberias preguntarle a ella!
+te#odio#odio?#amo#yo tambien
+te#amo#lo se. soy irressistible
+joder#joder?#joder tio
+araña#araña!#Tu novia te engaña!
+pola#o#miedo?#miedo??#solo pola!? 
+cortana?#cortana#quien es ella?
+bye#bye?#bye, espero podamos hablar mas en otra ocacion
+que#sabor#te#gusta#el#helado#gustarte#de fresa
+que#hace#haces?#no nada y ud?
+que#es#codigo#algoritmo#Conjunto ordenado de operaciones sistematicas que permite hacer un c�lculo y hallar la solucion de un tipo de problemas
+imagen#foto#Figura de una persona o cosa captada por el ojo, por un espejo, un aparato optico, una placa fotografica, etc., gracias a los rayos de luz que recibe y proyecta.
+te#gusta#gustar#el#carro#si me gusta el carro
+te#gusta#el#helado#gustar#si me gusta
+que#es#helado# es frio
+que#es#programacion#La programaci�n inform�tica o programaci�n algor�tmica, acortada como programaci�n, es el proceso de dise�ar, codificar, depurar y mantener el c�digo fuente de programas de computadora. El c�digo fuente es escrito en un lenguaje de programaci�n.
+que#es#celular#telefono#smartphone#Un tel�fono celular? o tel�fono m�vil? es un tel�fono port�til que puede hacer y recibir llamadas a trav�s de una portadora de radiofrecuencia, mientras el usuario se est� moviendo dentro de un �rea de servicio telef�nico.
+agua#agua?#es un liquido
+organismo#organismo?#Conjunto de los órganos que constituyen un ser vivo.
+bicho#bicho?#es un animal
+tio#tio?#un familiar
+son#audifonos#audifonos?#para escuchar musica
+jaja#jajaj#jaja?#jaja
+como#como
+estas#estas?#bien
+yes#yes?#yes
+haces#haces?#no nada y ud
+quien#eres#eres?#cortana
+no#se#se?#yo tampoco se
+que#es#sistema#operativo#operativo?#Conjunto de cosas o elementos que guardan entre sí algún tipo de relación.
+voy#si
+una#vaca#vaca?#es un anima
+computador#computador?#una maquina
+que#es#carro#es un automovil
+te#gusta#gustar#gustar que?
+que#que?#que de que?
+te#gusta#gusta el????
+cat#cat?#its an animal
+que#es#es?#que es que?
+we#we?#we
+hotdog#hotdog?#rico
+vamos#a#pasar#java#java?#si
+el#el?
+pasar#pasar?
+bn#bn?#bn bn y ud?
+nada#nada?#entiendo
+#?#?
+genial#genial?#fantastico
+reproducir#musica#con gusto
+me#gusta#genial
+te#gusta#el#chorizo#chorizo?#si
+xd#xd?#xd
+aqui#en#la#casa#casa?#enitendo
+¿Como#estás?#estás??#bien gracias
+futbol#futbol?#s
+raios#raios?#haha
+araña!#araña!?#Tu novia te engaña!!

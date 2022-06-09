@@ -10,10 +10,11 @@ public class Config {
 
     /* values */
     public static final int timeRandom = 4000;
+    public static final int botQuestions = 15;
     
     /* acronym */
     public static final String acronymUser = "me";
-    public static final String acronymBot = "lu";
+    public static final String acronymBot = "bot";
 
     /*path Icons*/
     public static final String pathIconBot = "img/icon-bot.png";
@@ -28,5 +29,6 @@ public class Config {
     public static final String pathSoundPop = "sound/pop.wav";
     public static final String pathSoundAlive = "sound/alive.wav";
     public static final String pathSoundMess = "sound/message.wav";
+    public static final String pathURL = "https://www.youtube.com/watch?v=I_izvAbhExY";
     
 }

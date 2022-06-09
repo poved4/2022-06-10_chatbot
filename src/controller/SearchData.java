@@ -1,6 +1,5 @@
 package controller;
 
-
 import java.io.IOException;
 import javax.swing.JOptionPane;
 import java.io.RandomAccessFile;
@@ -12,8 +11,6 @@ public class SearchData extends FileController {
     public RandomAccessFile fileReader;
 
     public SearchData() {
-
-        //super(Config.pathTxtFile); 
 
         try {
             fileReader = new RandomAccessFile(file, "r");
@@ -41,7 +38,7 @@ public class SearchData extends FileController {
             String line = fileReader.readLine();
             boolean find = false;
 
-            while (line != null && find != true) {
+            while (line != null && !find) {
 
                 String[] tuple = line.split("#");
                 String[] tupleTwo = word.split(" ");
@@ -58,7 +55,7 @@ public class SearchData extends FileController {
                 if (counter >= counterOne) {
                     counterOne = counter;
                     savedWord = translation;
-                    
+
                 }
 
                 counter = 0;

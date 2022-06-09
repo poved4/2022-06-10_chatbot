@@ -30,7 +30,7 @@ public class Main extends javax.swing.JFrame {
         soundMess = getSound(Config.pathSoundMess);
 
         /* settings */
-        changeColorBtnSend("#66CC00");
+        changeColorBtnSend(Config.colorGreen);
         setIconImage(getImage(Config.pathIconBot));
     }
 
@@ -300,40 +300,39 @@ public class Main extends javax.swing.JFrame {
                     cleanInput();
                     soundPop.play();
                     changeColorBtnSend(Config.colorGreen);
-
-                    /* reply to user */
                     updateScreen(Config.acronymUser, question);
+                    
+                    /* reply to user */
                     String answer = new SearchData().translate(question);
 
                     if (answer == null || answer.equalsIgnoreCase("ok")) {
                         learnMe(question);
                         answer = new SearchData().translate(question);
+                        answer = answer.equalsIgnoreCase("ok") ? "perdon. no te entiendo" : answer;
                     }
 
                     animationWriting(answer);
 
-                    if (question.equalsIgnoreCase("reproducir musica")) {
-                        Desktop.getDesktop().browse(new URI("https://www.youtube.com/watch?v=I_izvAbhExY"));
-                    }
+                    if (question.equalsIgnoreCase("reproducir musica")) { setMusic(); }
 
                     /* ask to user */
                     if (getProbability() > 4) {
-
+                    
                         String botAsk = new SearchData().translate(getRandomQuestion());
-                        JOptionPane.showInputDialog("Main, line 321 -> " + botAsk);
-
+                        
                         if (!botAsk.equalsIgnoreCase("ok")) {
 
                             animationQuestion(botAsk);
 
                             if (botAsk.equalsIgnoreCase("pongamos musica")) {
-                                alive.play();
+                                //alive.play();
+                                setMusic();
                             }
                         }
                     }
 
                 } catch (Exception e) {
-                    
+                    JOptionPane.showInternalMessageDialog(null, e);
                 }
             }
         });
@@ -378,6 +377,10 @@ public class Main extends javax.swing.JFrame {
     }
 
     /* -- resources --*/
+    private void setMusic () throws URISyntaxException, IOException {
+        Desktop.getDesktop().browse(new URI(Config.pathURL));
+    }
+    
     private Image getImage(String path) {
         return Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource(path));
     }
@@ -387,7 +390,7 @@ public class Main extends javax.swing.JFrame {
     }
 
     private int getProbability() {
-        return (int) (Math.random() * 9) + 1;
+        return (int) (Math.random() * Config.botQuestions) + 1;
     }
 
     private int getRandomTime() {
@@ -395,8 +398,7 @@ public class Main extends javax.swing.JFrame {
     }
 
     private String getRandomQuestion() {
-        int num = (int) (Math.random() * 9) + 1;
-        return Integer.toString(num) + "p";
+        return Integer.toString(getProbability()) + "p";
     }
 
     /* -- UI -- */
